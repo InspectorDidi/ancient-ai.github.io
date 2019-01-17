@@ -1,27 +1,3 @@
-// Body 
-body {
-  background: #008080;
+body  {
+    background-color: #212223;
 }
-
-// Bottom navigation bar
-.bottom-navbar {
-  background-color: #C0C0C0;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-// Styles links on navbar
-.bottom-navbar a {
-  float: left;
-  display: block;
-  color: #cccccc;
-}
-
-// wrapper
-#content-wrapper {
-	width: 100%;
-	margin: 0 auto;
-}
-
