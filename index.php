@@ -1,6 +1,4 @@
-
-      <body>
-            <header></header>
-            <!-- Main Container -->
-            <script></script>
-      </body>
+<body>
+      <h2>text</h2>
+      
+</body>
