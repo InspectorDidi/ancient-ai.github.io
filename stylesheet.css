@@ -1,6 +1,21 @@
 html  {
     background-color: #020202;
 }
+/* Adds black background color to top nav bar */
+.searchbox {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+/* Styles (links) in navbar */
+.searchbox input {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 li {
       display: inline;
 }
