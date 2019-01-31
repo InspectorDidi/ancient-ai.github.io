@@ -9,7 +9,7 @@ html  {
 /* Styles (links) in navbar */
 .searchbox input {
   display: block;
-  background-color: black;
+  background-color: transparent;
   color: black;
   text-align: center;
   padding: 14px 16px;
