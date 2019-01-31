@@ -20,6 +20,11 @@ html  {
 li {
       display: inline;
 }
+input,
+select,
+option {
+      color: white;
+}
 input[type=text] {
       padding: 5px;
       border: 2px solid #ccc;
