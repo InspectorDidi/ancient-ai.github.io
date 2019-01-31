@@ -2,10 +2,7 @@ body {
       background-color: black;
 }
 .searchbox {
-      position: absolute;
-      margin: auto;
-      width: 100px;
-      height: 100px;
-      background-color: #ccc;
-      border: transparent;
+      width: 100%;
+      text-align: center;
+      display: block;
 }
