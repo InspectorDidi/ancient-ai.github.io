@@ -4,7 +4,7 @@ html  {
 /* Adds black background color to top nav bar */
 .searchbox {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: #00000;
 }
 /* Styles (links) in navbar */
 .searchbox input {
