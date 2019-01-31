@@ -1,4 +1,4 @@
-html  {
+body  {
     background-color: #020202;
 }
 /* Adds black background color to top nav bar */
@@ -11,7 +11,7 @@ html  {
   background-color: transparent;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: white;
   font-size: 17px;
 }
 
