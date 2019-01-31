@@ -25,9 +25,13 @@ input[type=text] {
       border: 2px solid #ccc;
       -webkit-border-radius: 5px;
       border-radius: 5px;
+      width: 130px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus {
       border-color: #333;
+      width: 100%;
 }
 input[type=submit] {
       padding:5px 15px;
@@ -36,54 +40,4 @@ input[type=submit] {
       cursor:pointer;
       -webkit-border-radius: 5px;
       border-radius: 5px;
-}
-.blinking-cursor {
-      font-weight: 100;
-      font-size: 30px;
-      color: #2E3D48;
-      -webkit-animation: 1s blink step-end infinte;
-      -moz-animation: 1s blink step-end infinite;
-      -ms-animation: 1s blink step-end infinite;
-      -o-animation: 1s blink step-end infinte;
-      animation: 1s blink step-end infinite;
-}
-@keyframes "blink" {
-      from, to {
-            color: transparent;
-      }
-      50% {
-            color: black;
-      }
-}
-@-moz-keyframes blink {
-      from, to {
-            color: transparent;
-      }
-      50% {
-            color: black;
-      }
-}
-@-webkit-keyframes "blink" {
-      from, to {
-            color: transparent;
-      }
-      50% {
-            color: black;
-      }
-}
-@-ms-keyframes "blink" {
-      from, to {
-            color: transparent;
-      }
-      50% {
-            color: black;
-      }
-}
-@-o-keyframes "blink" {
-      from, to {
-            color: transparent;
-      }
-      50% {
-            color: black;
-      }
 }
