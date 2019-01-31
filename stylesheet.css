@@ -4,7 +4,6 @@ html  {
 /* Adds black background color to top nav bar */
 .searchbox {
   overflow: hidden;
-  background-color: #00000;
 }
 /* Styles (links) in navbar */
 .searchbox input {
@@ -20,11 +19,6 @@ html  {
 li {
       display: inline;
 }
-input,
-select,
-option {
-      color: white;
-}
 input[type=text] {
       padding: 5px;
       border: transparent;
@@ -35,14 +29,14 @@ input[type=text] {
       transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus {
-      border-color: #333;
+      border-color: transparent;
       width: 100%;
 }
 input[type=submit] {
       padding:5px 15px;
       background: transparent;
       border: 0 none;
-      cursor:pointer;
+      cursor: pointer;
       -webkit-border-radius: 5px;
       border-radius: 5px;
 }
