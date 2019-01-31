@@ -59,4 +59,19 @@ $(function() {
       }
 
       $(window).trigger('hashchange');
+});
+
+jQuery(function ($) {
+
+  $(".downloadBrochure").click(function () {
+      if (this.id == "basicBrochure") {
+        $("<input type='hidden' name='package' id='packagetype' value='Basic'>").appentTo("#brochure");
+        // $('#packagetype').html("Basic");
+      }
+      else {
+
+        // $('#packagetype').html("Plus");
+      }
+      $(".modal-content").show();
+  })
 })
