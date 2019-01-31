@@ -1,4 +1,4 @@
-body  {
+html  {
     background-color: #020202;
 }
 li {
@@ -19,5 +19,5 @@ input[type=submit] {
       border:0 none;
       cursor:pointer;
       -webkit-border-radius: 5px;
-      border-radius: 5px; 
+      border-radius: 5px;
 }
