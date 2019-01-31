@@ -1,5 +1,6 @@
 html  {
     background-color: #020202;
+    font-color: white;
 }
 /* Adds black background color to top nav bar */
 .searchbox {
@@ -12,7 +13,6 @@ html  {
   background-color: black;
   color: black;
   text-align: center;
-  text-decoration-color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
