@@ -1,8 +1,13 @@
 body {
       background-color: black;
 }
+.wrapper {
+      text-align: center;
+}
 .button {
       background-color: transparent;
+      position: absolute;
+      top: 60%;
       border: 2px;
       color: white;
       padding: 15px 32px;
