@@ -15,16 +15,16 @@ body {
       display: inline-block;
       font-size: 16px;
 }
-.button button1 {
+.button1 {
       position: relative;
       left: 20px;
       top: 60%;
 }
-.button button2 {
+.button2 {
       position: absolute;
       top: 60%;
 }
-.button button3 {
+.button3 {
       position: relative;
       right: 20px;
       top: 60%;
