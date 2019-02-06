@@ -1,26 +1,38 @@
 body {
+      font-family: source-sans-pro;
+      font-style: normal;
+      font-weight: 200;
       background-color: black;
+}
+div {
+      display: block;
 }
 .wrapper {
       text-align: center;
 }
 .button {
-      background-color: black;
-      border: none;
-      border-width: thin;
-      color: white;
-      padding: 15px 32px;
+      width: 200px;
+      margin-top: 40px;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+      padding-left: 10px;
       text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      -webkit-transition-duration: 0.4s;
-      transition-duration: 0.4s;
+      vertical-align: middle;
+      border-radius: 0px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      border: 3px solid #FFFFFF;
+      color: #FFFFFF;
+      transition: all 0.3s linear;
 }
 .button:hover {
       background-color: white;
       color: black;
-
 }
 .button1 {
       margin-left: 30px;
