@@ -14,9 +14,6 @@ div {
       background-color: black;
       width: 200px;
       margin-top: 500px;
-      margin-right: auto;
-      margin-bottom: auto;
-      margin-left: auto;
       padding-top: 20px;
       padding-right: 10px;
       padding-bottom: 20px;
@@ -30,7 +27,6 @@ div {
       border: 3px solid #FFFFFF;
       color: white;
       transition: all 0.3s linear;
-      margin-top: 500px;
 }
 .button:hover {
       background-color: white;
@@ -44,7 +40,4 @@ div {
 .button3 {
       tex
       margin-right: 30px;
-}
-.gif-avatar {
-      width: 50%;
 }
