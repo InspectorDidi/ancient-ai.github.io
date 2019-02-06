@@ -30,6 +30,7 @@ div {
       border: 3px solid #FFFFFF;
       color: white;
       transition: all 0.3s linear;
+      margin-top: 500px;
 }
 .button:hover {
       background-color: white;
