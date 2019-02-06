@@ -22,10 +22,14 @@ body {
       color: black;
 
 }
-.divider {
-      width: 5px;
-      height: auto;
-      display: inline-block;
+.button1 {
+      margin-left: 30px;
+}
+.button2 {
+      position: absolute;
+}
+.button3 {
+      margin-right: 30px;
 }
 .gif-avatar {
       width: 50%;
