@@ -5,9 +5,7 @@ body {
       background-color: black;
 }
 .wrapper {
-      margin: 0 auto;
       text-align: center;
-      width: 220px;
 }
 .button {
       background-color: black;
@@ -27,13 +25,20 @@ body {
       color: white;
       transition: all 0.3s linear;
 }
+.navbuttons {
+  margin: 0 auto;
+  width: 400px;
+}
 .button:hover {
       background-color: white;
       color: black;
 }
 .button1 {
+  margin-right: 30px;
 }
 .button2 {
+  margin-right: 30px;
 }
 .button3 {
+
 }
