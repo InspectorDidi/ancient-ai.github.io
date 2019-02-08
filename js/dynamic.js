@@ -23,6 +23,20 @@ $(function() {
             }
       })
 
+
+      // Open mobile menu
+      $('#mobile-menu-open').click(function() {
+            $('header, body').removeClass('active');
+      });
+
+      // Close mobile menu
+      $('#mobile-menu-close').click(function(e) {
+            e.preventDefault();
+            $(this).fadeOut(200, function() {
+                  $('#more-projects').fadeIn(200);
+            });
+      });
+
       $(window).bind('hashchange', function() {
 
             newHash = window.location.hash.substring(1);
@@ -59,7 +73,7 @@ $(function() {
       }
 
       $(window).trigger('hashchange');
-});
+})(jQuery);
 
 jQuery(function ($) {
 
@@ -73,5 +87,5 @@ jQuery(function ($) {
         // $('#packagetype').html("Plus");
       }
       $(".modal-content").show();
-  })
-})
+      });
+});
