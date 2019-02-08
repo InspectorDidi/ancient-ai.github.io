@@ -10,7 +10,7 @@ body {
 .button {
       background-color: black;
       width: 200px;
-      margin: 20em auto;
+      float: left;
       padding-top: 20px;
       padding-right: 10px;
       padding-bottom: 20px;
@@ -25,15 +25,20 @@ body {
       color: white;
       transition: all 0.3s linear;
 }
+.navbuttons {
+  margin: 0 auto;
+  width: 400px;
+}
 .button:hover {
       background-color: white;
       color: black;
 }
 .button1 {
-      margin-left: 30px;
+
 }
 .button2 {
+
 }
 .button3 {
-      margin-right: 30px;
+
 }
