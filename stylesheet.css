@@ -52,6 +52,6 @@ h1:after {
       background-color: white;
       color: black;
 }
-.clickme {
+.button clickme {
       margin-left: 30px;
 }
