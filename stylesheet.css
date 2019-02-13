@@ -49,7 +49,7 @@ button {
       color: white;
       transition: all 0.3s linear;
 }
-.button:hover {
+#button:hover {
       background-color: white;
       color: black;
 }
