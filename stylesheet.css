@@ -22,6 +22,7 @@ header {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      transform: translateX(-50%) translateY(-50%);
 }
 .column {
   float: left;
@@ -62,4 +63,24 @@ button {
 .button:hover {
       background-color: white;
       color: black;
+}
+.typewriter h1 p {
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid green; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+            typing 3.5s steps(40, end),
+            blink-caret 1s step-end infinte;
+}
+/* typing effect */
+@keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+      from, to {border-color: transparent }
+      50% { border-color: green; }
 }
