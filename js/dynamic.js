@@ -2,12 +2,12 @@ $(document).ready(function() {
 
   $(window).resize(function() {
 
-    $('.main-content').css({
+    $('.main').css({
       position:'absolute',
       left: ($(window).width()
-        - $('.main-content').outerWidth())/2,
+        - $('.main').outerWidth())/2,
       top: ($(window).height()
-        - $('.main-content').outHeight())/2
+        - $('.main').outHeight())/2
     });
   });
 
