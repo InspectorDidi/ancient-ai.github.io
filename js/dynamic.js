@@ -1,3 +1,19 @@
+$(document).ready(function() {
+
+  $(window).resize(function() {
+
+    $('.main-content').css({
+      position:'absolute',
+      left: ($(window).width()
+        - $('.main-content').outerWidth())/2,
+      top: ($(window).height()
+        - $('.main-content').outHeight())/2
+    });
+  });
+
+  $(window).resize();
+}
+
 $(function() {
       var   newHash           = "",
             $mainContent      = $("#mainContent"),
@@ -24,18 +40,6 @@ $(function() {
       })
 
 
-      // Open mobile menu
-      $('#mobile-menu-open').click(function() {
-            $('header, body').removeClass('active');
-      });
-
-      // Close mobile menu
-      $('#mobile-menu-close').click(function(e) {
-            e.preventDefault();
-            $(this).fadeOut(200, function() {
-                  $('#more-projects').fadeIn(200);
-            });
-      });
 
       $(window).bind('hashchange', function() {
 
@@ -73,19 +77,4 @@ $(function() {
       }
 
       $(window).trigger('hashchange');
-})(jQuery);
-
-jQuery(function ($) {
-
-  $(".downloadBrochure").click(function () {
-      if (this.id == "basicBrochure") {
-        $("<input type='hidden' name='package' id='packagetype' value='Basic'>").appentTo("#brochure");
-        // $('#packagetype').html("Basic");
-      }
-      else {
-
-        // $('#packagetype').html("Plus");
-      }
-      $(".modal-content").show();
-      });
 });
