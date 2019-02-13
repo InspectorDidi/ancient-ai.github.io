@@ -4,14 +4,14 @@ body {
       background-color: black;
       color: white;
 }
-main {
+/*main {
       width: 270px;
       height: 150px;
       position: absolute;
       left: 50%;
       top: 50%;
       margin: -75px 0 0 -135px;
-}
+}*/
 header {
       position: absolute;
       top: 0;
@@ -40,14 +40,6 @@ header {
   .column {
     width: 100%;
   }
-}
-.content {
-      padding: 10em auto;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
 }
 button {
       background-color: black;
