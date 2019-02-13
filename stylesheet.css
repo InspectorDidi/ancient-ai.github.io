@@ -23,7 +23,7 @@ header {
       align-items: center;
       flex-direction: column;
 }
-.content {
+#content {
       padding: 10em auto;
       text-align: center;
       display: flex;
