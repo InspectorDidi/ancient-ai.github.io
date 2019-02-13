@@ -4,10 +4,10 @@ body {
       background-color: black;
       color: white;
 }
-main {
+#main {
       style="transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,1);"
 }
-header {
+#header {
       position: absolute;
       top: 0;
       bottom: 0;
@@ -18,7 +18,7 @@ header {
       align-items: center;
       flex-direction: column;
 }
-.content {
+#content {
       padding: 10em auto;
       text-align: center;
       display: flex;
@@ -48,6 +48,6 @@ header {
       background-color: white;
       color: black;
 }
-.button clickme {
+#button clickme {
       margin-left: 30px;
 }
