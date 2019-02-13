@@ -4,7 +4,7 @@ body {
       background-color: black;
       color: white;
 }
-.main {
+#main {
       transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,1);
 }
 header {
