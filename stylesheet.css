@@ -27,6 +27,7 @@ h1:after {
       }
 }
 .main-content {
+      padding: 10em auto;
       text-align: center;
 }
 .button {
