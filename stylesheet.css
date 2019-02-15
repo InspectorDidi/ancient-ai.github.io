@@ -83,3 +83,7 @@ button {
       from, to {border-color: transparent }
       50% { border-color: green; }
 }
+.twitter {
+  -webkit-filter: invert(100);
+  filter: invert(100%);
+}
