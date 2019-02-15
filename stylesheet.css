@@ -6,16 +6,8 @@ body {
       max-width: 500px;
       margin: auto;
 }
-/*main {
-      width: 270px;
-      height: 150px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin: -75px 0 0 -135px;
-}*/
-/*header {
-      position: absolute;
+header {
+      /*position: absolute;
       top: 0;
       bottom: 0;
       right: 58%;
@@ -23,8 +15,10 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-}*/
+      flex-direction: column;*/
+      position: absolute;
+      display: flex;
+}
 .column {
   float: left;
   width: 50%;
