@@ -3,6 +3,8 @@ body {
       font-weight: 200;
       background-color: black;
       color: white;
+      max-width: 500px;
+      margin: auto;
 }
 /*main {
       width: 270px;
@@ -26,7 +28,7 @@ body {
 .column {
   float: left;
   width: 50%;
-  
+
 }
 
 /* Clear floats after the columns */
