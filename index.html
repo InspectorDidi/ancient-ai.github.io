@@ -19,7 +19,31 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>ancientai_</h1>
+								<h1 id="cursor" style="text-shadow: 0px 0px 0px 10px white, 0px 0px, 5px, white;"><script>
+									var p = document.getElementById('cursor');
+									p.innerHTML = '';
+									var n = 0;
+									var str = 'ancientai';
+									var typeTimer = setInterval(function() {
+									  n = n + 1;
+									  p.innerHTML = "> " + str.slice(0, n);
+									  if (n === str.length) {
+									    clearInterval(typeTimer);
+									    p.innerHTML = "> " + str;
+									    n = 0;
+									    setInterval(function() {
+
+									      if (n === 0) {
+									        p.innerHTML = "> " + str + "_"
+									        n = 1;
+									      } else {
+									        p.innerHTML = "> " + str
+									        n = 0;
+									      };
+									    }, 500);
+									  };
+									}, 60)
+								</script></h1>
 								<p>ex-software engineer | now cyber-sec <br />
 								part-time IT | part-time jr. php dev</p>
 							</div>
